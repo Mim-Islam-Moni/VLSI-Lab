@@ -1,0 +1,65 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/computer/mimo/cpu_8bit_tb_isim_beh.exe -prj /home/ise/computer/mimo/cpu_8bit_tb_beh.prj work.cpu_8bit_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/computer/mimo/nand-gate-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/not-gate.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/xor-gate.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/and-gate.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/or-gate.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/half-adder-circuit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/sr-latch.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/full-adder-1b.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/low-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/high-nibble-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/d-latch.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/master-slave-ff.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/full-adder-circuit-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/subtractor-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/register-1bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/mux-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/registe-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/program_rom.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/pc-4bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/control-unit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/alu-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/cpu-8bit.vhd" into library work
+Parsing VHDL file "/home/ise/computer/mimo/cpu-8bit-tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97756 KB
+Fuse CPU Usage: 1150 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behavioral of entity program_rom [program_rom_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity low_nibble_4bit [low_nibble_4bit_default]
+Compiling architecture structural of entity high_nibble_4bit [high_nibble_4bit_default]
+Compiling architecture structural of entity adder_8bit [adder_8bit_default]
+Compiling architecture structural of entity subtractor_8bit [subtractor_8bit_default]
+Compiling architecture behavioral of entity mux_8bit [mux_8bit_default]
+Compiling architecture structural of entity alu_8bit [alu_8bit_default]
+Compiling architecture structural of entity sr_latch [sr_latch_default]
+Compiling architecture structural of entity d_latch [d_latch_default]
+Compiling architecture structural of entity master_slave_ff [master_slave_ff_default]
+Compiling architecture structural of entity register_1bit [register_1bit_default]
+Compiling architecture structural of entity register_8bit [register_8bit_default]
+Compiling architecture structural of entity cpu_8bit [cpu_8bit_default]
+Compiling architecture behavior of entity cpu_8bit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 48 VHDL Units
+Built simulation executable /home/ise/computer/mimo/cpu_8bit_tb_isim_beh.exe
+Fuse Memory Usage: 405244 KB
+Fuse CPU Usage: 1460 ms
+GCC CPU Usage: 2380 ms
